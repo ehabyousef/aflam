@@ -1,0 +1,25 @@
+input {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid var(--orange-color) !important;
+  color: white !important;
+  transition: 0.3s;
+}
+input:focus {
+  border: 1px solid var(--orange-color) !important;
+  box-shadow: 4px 6px 16px 0.25rem var(--red-color) !important;
+}
+label {
+  color: var(--red-color);
+  padding: 10px !important;
+  font-size: 20px !important;
+}
+textarea {
+  background-color: transparent !important;
+  border: 1px solid var(--orange-color) !important;
+  color: white !important;
+  transition: 0.3s;
+}
+textarea:focus {
+  box-shadow: 4px 6px 16px 0.25rem var(--red-color) !important;
+}

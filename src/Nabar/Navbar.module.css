@@ -1,0 +1,30 @@
+#linkss li a::before {
+  content: "";
+  position: absolute;
+  background-color: var(--sky-color);
+  width: 0;
+  height: 3px;
+  bottom: 0px;
+  transition: 0.3s;
+}
+#linkss li a:hover::before {
+  width: 70%;
+}
+
+#con i:nth-child(1):hover {
+  color: #1877f2;
+}
+#con i:nth-child(2):hover {
+  color: #f56040;
+}
+#con i:nth-child(3):hover {
+  color: #010101;
+}
+
+#log:hover {
+  color: #ff0000;
+}
+#con i {
+  cursor: pointer;
+  transition: 0.3s;
+}

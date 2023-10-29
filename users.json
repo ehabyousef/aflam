@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "first_name": "mah",
+      "Last_name": "kha",
+      "age": "22",
+      "email": "kha@dasd.com",
+      "password": "asd",
+      "id": 2
+    },
+    {
+      "first_name": "ehab",
+      "Last_name": "yousef",
+      "age": "21",
+      "email": "ehabyousef022@gmail.com",
+      "password": "666aaa",
+      "id": 3
+    },
+    {
+      "first_name": "ahmed",
+      "Last_name": "yousef",
+      "age": "26",
+      "email": "ehamed@gmaol.com",
+      "password": "222666",
+      "id": 4
+    },
+    {
+      "first_name": "uchiha",
+      "Last_name": "bob",
+      "age": "20",
+      "email": "uchihabob55@gmail.com",
+      "password": "147852",
+      "id": 5
+    },
+    {
+      "first_name": "dddss",
+      "Last_name": "aassa",
+      "age": "54",
+      "email": "ddasddd43@gmail.com",
+      "password": "111aas",
+      "id": 6
+    }
+  ]
+}

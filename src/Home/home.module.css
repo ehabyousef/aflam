@@ -1,0 +1,54 @@
+#line::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: var(--sky-color);
+}
+#line::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: var(--sky-color);
+  top: -5px;
+}
+#carrd,
+#carrd img {
+  transition: 0.3s;
+}
+#carrd:hover img {
+  opacity: 0.2;
+}
+#carrd:hover #butdetail {
+  display: flex;
+}
+#butdetail {
+  position: absolute;
+  background-color: var(--red-color);
+  color: #000;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 30px;
+  font-size: 12px;
+  border: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  display: none;
+}
+#butdetail:hover {
+  width: 70%;
+  padding: 30px;
+  font-size: 20px;
+  box-shadow: none;
+  background-color: var(--dark-color);
+  color: var(--orangelight-color);
+}
+
