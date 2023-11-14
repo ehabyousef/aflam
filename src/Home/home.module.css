@@ -44,11 +44,9 @@
   display: none;
 }
 #butdetail:hover {
-  width: 70%;
-  padding: 30px;
   font-size: 20px;
   box-shadow: none;
-  background-color: var(--dark-color);
+  background-color: transparent;
   color: var(--orangelight-color);
+  font-weight: bold;
 }
-

@@ -39,6 +39,14 @@
       "email": "ddasddd43@gmail.com",
       "password": "111aas",
       "id": 6
+    },
+    {
+      "first_name": "ehab",
+      "Last_name": "yousef",
+      "age": "22",
+      "email": "ehabyousef022@gmail.com",
+      "password": "123456",
+      "id": 7
     }
   ]
 }

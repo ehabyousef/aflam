@@ -14,7 +14,7 @@ const MovieDetails = () => {
         `https://api.themoviedb.org/3/movie/${id}?api_key=282b5f398ae39b2405b8da1920eccea2`
       );
       setItemDetails(data);
-      console.log(data);
+      // console.log(data);
     }
     getTranding();
   }, [id]);
@@ -40,7 +40,7 @@ const MovieDetails = () => {
               <span className="fw-bolder fs-4 ">
                 Movie Popularity:
                 <span
-                  style={{ color: "#f4a261" }}
+                  style={{ color: "#fff" }}
                   className="fw-bolder fs-4 p-3"
                 >
                   {ItemDetails.overview}

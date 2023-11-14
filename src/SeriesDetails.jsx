@@ -39,7 +39,7 @@ const SeriesDetails = () => {
               <span className="fw-bolder fs-4 ">
                 Show Popularity:
                 <span
-                  style={{ color: "#f4a261" }}
+                  style={{ color: "#fff" }}
                   className="fw-bolder fs-4 p-3"
                 >
                   {ItemDetails.overview}
