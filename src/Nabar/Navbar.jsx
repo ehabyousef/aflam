@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="navbar sticky-top navbar-expand-lg bg-dark-subtle mb-5">
         <div className="container-fluid d-flex">
           <Link to="/" className="navbar-brand fw-bold fs-3" href="#">
-            OOl Film
+            videoz
           </Link>
           <button
             className="navbar-toggler"
@@ -85,8 +85,12 @@ const Navbar = () => {
                 id={style.con}
                 className="nav-item d-flex align-items-center gap-4 me-4 text-dark fs-5"
               >
-                <i className="fab fa-facebook  fs-4"></i>
-                <i className="fab fa-instagram fs-4"></i>
+                <Link to='https://www.facebook.com/profile.php?id=100080623690922' target="_blank">
+                  <i className="fab fa-facebook  fs-4"></i>
+                </Link>
+                <Link to='https://instagram.com/ehab.yousef.66' target="_blank">
+                  <i className="fab fa-instagram fs-4"></i>
+                </Link>
                 <i className="fab fa-tiktok  fs-4"></i>
               </li>
               {userData ? (

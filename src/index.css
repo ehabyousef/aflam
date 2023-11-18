@@ -24,12 +24,12 @@ button {
   width: 150px;
   background-color: transparent;
   color: var(--red-color);
-  transition: 0.3s;
   border: 2px solid var(--orangelight-color);
   border-radius: 10px !important;
   font-size: 25px !important;
+  transition: 0.3s;
 }
-button:hover {
+button:focus {
   border: none;
   box-shadow: inset 3px 3px 7px 0px #000000;
 }
